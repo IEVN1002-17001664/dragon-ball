@@ -1,0 +1,44 @@
+
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.pagination-button {
+  padding: 9px 14px;
+  border-radius: 8px;
+  background: #18181b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.pagination-button:hover:not(:disabled) {
+  background: #f97316;
+  border-color: #f97316;
+}
+
+.pagination-button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+}
+
+input::placeholder {
+  color: #71717a;
+}
+
+select option {
+  background: #18181b;
+  color: white;
+}
+
+img {
+  display: block;
+}
